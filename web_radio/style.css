@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 1rem;
+
+}
+
+#search {
+    max-width: 500px;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    width: 80%;
+}
+
+main {
+    padding: 1rem;
+}
+
+#station-list {
+    list-style: none;
+    padding: 0;
+}
+
+.station-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.station-item h2 {
+    margin: 0;
+}
+
+.station-item button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+}
